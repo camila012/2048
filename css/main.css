@@ -4,15 +4,20 @@
   justify-content: center;
 }
 
-.contenedor {
+#contenedorDelJuego {
   height: 600px;
   width: 600px;
   border: 5px solid black;
   display: flex;
+  flex-wrap: wrap;
 }
+
 .numero {
-background-color: red;
-display: inline-block;
-width: 50px;
-height: 100%;
+background-color: green;
+box-shadow: 0 0 0 1px inset black;
+width: 150px;
+height: 150px;
+font-size: 55px;
+line-height: 150px;
+text-align: center;
 }
