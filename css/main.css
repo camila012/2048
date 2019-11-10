@@ -1,3 +1,7 @@
+
+body {
+  background-color: seagreen;
+}
 .principal {
   width: 100%;
   display: flex;
@@ -8,16 +12,60 @@
   height: 600px;
   width: 600px;
   border: 5px solid black;
+  border-radius: 10px;
   display: flex;
+  background-color: black;
   flex-wrap: wrap;
 }
 
 .numero {
-background-color: orange;
-box-shadow: 0 0 0 1px inset black;
-width: 150px;
-height: 150px;
-font-size: 55px;
-line-height: 150px;
-text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:teal;
+  box-shadow: 0 0 0 1px inset black;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  font-size: 55px;
+  line-height: 150px;
+  text-align: center;
 }
+
+.cuadro-2 { 
+  background-color: rgb(255, 71, 194);
+}
+
+.cuadro-4 {
+  background-color:#0DFFFE;  
+}
+
+.cuadro-8 {
+  background-color: rgb(143, 120, 206);
+
+}
+
+.cuadro-16 {
+  background-color: rgb(248, 236, 66);
+}
+
+.cuadro-32 {
+  background-color: #0178FF;
+}
+.cuadro-64 {
+  background-color:rgb(40, 175, 22) ;
+}
+.cuadro-128 {
+background-color: rgb(129, 35, 6);
+}
+ .cuadro-256 {
+   background-color:#FF853D ;
+ }
+ .cuadro-512{
+   background-color:rgb(158, 66, 30) ;
+ }
+ .cuadro-1024{
+   background-color: rgba(238, 20, 20, 0.925);
+ }
+ .cuadro-2048 {
+   background-color: rgb(12, 3, 53);
+ }
+ 
