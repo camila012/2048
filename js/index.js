@@ -152,7 +152,7 @@ function manejarMovimientos(direccion) {
       var a1v = 'listaDeNumeros[direccionUno][movimiento]'
       var a2v = 'listaDeNumeros[direccionUno][movimiento-1]'
 
-      manejarPush(vd2, cdc, rdc, cdm, rdm, a1v, insertarNumeroAleatorioa2v);
+      manejarPush(vd2, cdc, rdc, cdm, rdm, a1v, a2v);
 
       break;
 
