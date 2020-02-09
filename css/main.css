@@ -1,11 +1,60 @@
 
 body {
-  background-color: seagreen;
+  margin: 0;
+  display: contents;
 }
 .principal {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.principal:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 99999;
+  background-image: url(https://images.unsplash.com/photo-1568489601916-b6dd81cbc0be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  -webkit-animation: rotating 180s linear infinite;
+  -moz-animation: rotating 180s linear infinite;
+  -ms-animation: rotating 180s linear infinite;
+  -o-animation: rotating 180s linear infinite;
+  animation: rotating 180s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.barraDeNavegacion {
+  background-image: linear-gradient(to right, red, yellow);
+  padding: 15px;
+}
+
+.itemDeNavegacion {
+  padding: 10px 20px;
+  border: solid 2px darkblue;
+  background-image: linear-gradient(darkblue, blue);
+  border-radius: 20px;
+}
+
+.itemDeNavegacion a {
+  color: white;
+  text-decoration: none;
 }
 
 #contenedorDelJuego {
