@@ -1,0 +1,59 @@
+body {
+    background-color : peru;
+}
+
+
+.cartelBrillante {
+  width: 100%;
+  overflow: hidden;
+  animation: slide-slow 3s infinite;
+  margin-top: 0%;
+}
+
+@keyframes slide-slow {
+  from {
+    padding: 0 45px;
+    background-color:rgb(237, 253, 13);
+  }
+  50% {
+    padding: 0 0;
+    background-color: chartreuse (164, 248, 8);
+  }
+
+  100% {
+    padding: 0 45px;
+    background-color: rgb(89, 252, 225);
+  }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondoanimado {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    /* background: linear-gradient(150deg, rgb(42, 245, 15), orange);
+    animation: color-fondoanimado 1s infinite; */
+    /* background-size: 400% 300%; */
+
+    background: linear-gradient(180deg, orange, olivedrab, rgb(75, 168, 96) );
+    background-size: 400% 400%;
+
+    animation: color-fondoanimado 2s ease infinite;
+
+}
+
+@keyframes color-fondoanimado {
+    0%{background-position:0% 0%}
+    50%{background-position:100% 100%}
+    100%{background-position:0% 0%}
+}

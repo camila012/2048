@@ -1,0 +1,23 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "2048",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camila012/2048.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camila012/2048/issues"
+  },
+  "homepage": "https://github.com/camila012/2048#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
