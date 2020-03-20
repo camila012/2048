@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="shortcut icon" type="image/png" href="./imagen/2048.png"/>
-  <title>2048</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="./imagen/2048.png" />
 
-<body> 
-  
-  
-  <div class="barraDeNavegacion">
-    <button class="itemDeNavegacion">
-      <a href="puntajes.html">Ver puntajes</a>
-    </button>
-  </div>
+    <title>2048</title>
+  </head>
 
-  <div class="principal">
-    <div id="contenedorDelJuego">
-
-
-
+  <body>
+    <nav class="navbar navbar-light bg-light barraDeNavegacion">
+      <a class="navbar-brand" href="./puntajes.html">
+        <img src="./imagen/button.jpg" width="100" height="100" alt="" />
+      </a>
+    </nav>
+    <br />
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="principal">
+          <div id="contenedorDelJuego"></div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <script src="./js/index.js"></script>
-</body>
+    <script src="./js/index.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
